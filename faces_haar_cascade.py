@@ -3,7 +3,7 @@ import sys
 
 NUM_WEBCAM = 0
 
-classificador = cv2.CascadeClassifier("recursos/haarcascade_frontalface_default.xml")
+classificador = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 
 vc = cv2.VideoCapture(NUM_WEBCAM)
 
